@@ -1,0 +1,48 @@
+body{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows:80px 1fr 30px ;
+
+}
+header {
+    background-color: #3F8F8D;
+    text-align: center;
+    padding-top: 32px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+}
+#sa {
+    background-color: red;
+}
+#cl {
+    background-color: greenyellow;
+}
+div {
+    margin: 5px;
+}
+
+footer {
+    background-color: #5DC0A6;
+    text-align: center;
+    color: white;
+    padding-top: 5.5px;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+
+main section {
+    margin: 20%;
+
+    
+}
+#table th {
+    
+    background-color: #FFD3DE;
+}
